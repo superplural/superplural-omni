@@ -6,7 +6,7 @@ on:
 
 env:
   IMAGE_NAME: ghcr.io/superplural/superplural-omni
-  DOCKERFILE_PATH: docker/dockerfiles/ 
+  DOCKERFILE_PATH: docker/dockerfiles/web.Dockerfile
   CONTEXT_PATH: .                                      # ajuste se seu Dockerfile exigir outro contexto
 
 jobs:
